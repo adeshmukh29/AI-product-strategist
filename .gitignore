@@ -1,0 +1,39 @@
+# 🧠 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Dependency artifacts
+*.egg-info/
+dist/
+build/
+
+# MCP Agent files
+mcp_agent.deployed.secrets.yaml
+mcp_agent.secrets.yaml
+mcp_agent.secrets.yaml.backup
+mcp_agent.deployed.secrets.yaml.backup
+
+# Secrets
+*.env
+.env*
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.cache/

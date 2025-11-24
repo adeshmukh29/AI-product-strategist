@@ -1,0 +1,6 @@
+mcp-agent
+fastmcp
+openai
+tavily-python
+pymongo
+python-dotenv

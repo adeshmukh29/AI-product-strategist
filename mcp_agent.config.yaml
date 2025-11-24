@@ -1,0 +1,18 @@
+name: ai-product-strategist
+description: "AI Product Strategist MCP App (LastMile)"
+
+# We use asyncio engine; the MCP server is created by create_mcp_server_for_app
+execution_engine: asyncio
+
+logger:
+  transports: [console]
+  level: info
+
+# No downstream MCP servers are strictly required here; your logic lives in Python.
+mcp:
+  servers: {}
+
+openai:
+  # Default model for any built-in OpenAI helpers (not strictly required,
+  # but nice to keep consistent with your code).
+  default_model: gpt-5-nano
