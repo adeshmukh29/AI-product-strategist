@@ -43,10 +43,13 @@ def save_strategy_to_db(strategy: dict):
         "strategy_markdown": text,
         "vector": vector,
         "tavily_raw": strategy.get("tavily_raw"),
+        # NEW: store the structured strategy JSON if provided
+        "strategy_json": strategy.get("strategy_json"),
     }
 
     col.insert_one(doc)
     return {"status": "ok", "inserted": True}
+
 
 # ---- VECTOR SEARCH ----
 # def search_similar_strategies(query: str, top_k: int = 3):
