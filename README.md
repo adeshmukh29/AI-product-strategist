@@ -189,7 +189,7 @@ Example configuration (conceptual):
 
 ## 4) How to run
 
-You have 3 typical run modes:
+You have 2 typical run modes:
 
 ---
 
@@ -265,13 +265,4 @@ Fix checklist:
   * MongoDB save confirmation
   * Similar strategy search (vector memory)
 
----
-
-## License
-
-Add your preferred license here (MIT / Apache-2.0 / etc.).
-
-```
-::contentReference[oaicite:0]{index=0}
-```
 
