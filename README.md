@@ -1,4 +1,4 @@
-```markdown
+
 # AI Product Strategist (MCP + Tavily + MongoDB + UI)
 
 An AI-powered product strategy generator that performs real-time web research, synthesizes a structured product strategy (and optional PRD/Roadmap), and saves results into MongoDB with vector embeddings for semantic search. Includes a Streamlit UI for a demo-friendly “business app” experience.
@@ -274,3 +274,4 @@ Add your preferred license here (MIT / Apache-2.0 / etc.).
 ```
 ::contentReference[oaicite:0]{index=0}
 ```
+
